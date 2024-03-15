@@ -27,6 +27,24 @@
     line-height: 1;
   }
 
+  .banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  #logo{
+    max-width: 80em;
+    width:100%;
+  }
+  #logo img{
+    width:100%;
+  }
+
+  
+
   ol, ul {
     list-style: none;
   }
@@ -1672,7 +1690,7 @@
 
   h3 {
     font-size: 1.35em;
-    font-weight: 500;
+    font-weight: 600;
     margin-top:1em !important;
     margin-bottom:0.49em !important;
   }
@@ -1789,7 +1807,7 @@
     }
 
   section.wrapper, article.wrapper {
-    padding: 6em 0;
+    padding: 3em 0;
   }
 
     section.wrapper header, article.wrapper header {
@@ -2206,9 +2224,7 @@
       padding: 3em 1.5em;
     }
 
-      .box.person h3 {
-        margin: 0;
-      }
+    
 
       .box.person .image {
         margin-bottom: 1em;
@@ -2959,8 +2975,9 @@
 /* Banner */
 
   #banner {
-    padding: 12em 0 10em 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.0)) , url('../../images/banner.jpg');
+    padding: 1em 0 1em 0;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.0)) , url('../../images/banner.jpg'); */
+    background-image: linear-gradient(rgba(0, 56, 131, 1),rgba(0, 56, 131, 0.7));
     background-size: cover;
     background-position: center center;
     background-attachment: scroll;
@@ -2969,7 +2986,7 @@
     border-top: 0.5em solid #5385c1;
   }
 
-    #banner h1 {
+    /* #banner h1 {
       font-size: 3.5em;
       font-weight: 400;
       color: #fff;
@@ -2977,7 +2994,7 @@
       margin: 0 0 0.5em 0;
       padding: 0 2em;
       text-shadow: 1px 1px 2px #555
-    }
+    } */
 
     #banner p {
       font-size: 1em;
@@ -2985,15 +3002,15 @@
       margin-bottom: 1.75em;
     }
 
-    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
 
       #banner {
         background-attachment: scroll;
       }
 
-    }
+    } */
 
-    @media screen and (max-width: 1280px) {
+    /* @media screen and (max-width: 1280px) {
 
       #banner {
         padding: 10em 2em 8em 2em;
@@ -3007,31 +3024,25 @@
         background-attachment: scroll;
       }
 
-    }
+    } */
 
     @media screen and (max-width: 736px) {
 
       #banner {
-        padding: 8em 1.5em 6em 1.5em;
+        padding: 1em 1.5em 1em 1.5em;
       }
 
-        #banner h1 {
+        /* #banner h1 {
           font-size: 2.5em;
         }
 
         #banner p {
           font-size: .9em;
-        }
+        } */
 
     }
 
-    @media screen and (max-width: 480px) {
-
-      #banner {
-        padding: 6em 1.5em 4em 1.5em;
-      }
-
-    }
+   
 
 /* Footer */
 
